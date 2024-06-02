@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _thread_create, symObjAddr: 0x0, symBinAddr: 0x100003C94, symSize: 0x84 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _pthread2, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xFE, offset: 0xFE, size: 0x8, addend: 0x0, symName: _pthread3, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _thread_create, symObjAddr: 0x0, symBinAddr: 0x100003C94, symSize: 0x84 }
+  - { offsetInCU: 0x161, offset: 0x161, size: 0x8, addend: 0x0, symName: _two_power, symObjAddr: 0x84, symBinAddr: 0x100003D18, symSize: 0xB4 }
+  - { offsetInCU: 0x1C1, offset: 0x1C1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x138, symBinAddr: 0x100003DCC, symSize: 0x124 }
+...

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "map_reducer.h": "c",
+    "stdlib.h": "c"
+  }
+}
